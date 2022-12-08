@@ -1,0 +1,152 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+h1 {
+    font-family: neue-kabel, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+}
+
+h2, h3 , h4, h5, h6 {
+    font-family: neue-kabel, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  a {
+    font-family: neue-kabel, sans-serif;
+    font-size: 14px;
+  }
+  p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+  }
+  
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #D50069 !important;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0px;
+  }
+  .nav-item {
+    margin: 0px 0px;
+  }
+  
+  
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  .jumbotron {
+    background-image: url(../img/my_bloody_valentine_loveless.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .content1 {
+    padding: 30%;
+    background-image: url(../img/5c0acd4892a1f13fe6dd1895a44641df.1000x1000x1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .content2 {
+    padding: 30%;
+    background-image: url(../img/mbv3-smaller.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .content3 {
+    padding: 20% 10% 20% 5%;
+
+  }
+  .content4 {
+    padding: 30%;
+    background-image: url(../img/MBV_Loveless.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .card1{
+    background-color: rgba(145, 167, 159, 0.7);
+    border: 1px #495551 solid;
+    border-radius: 8px;
+  }
+  
+  .card2{
+    background-color: hsl(165, 4%, 81%,.7);
+    border: 1px #B4B3B3 solid;
+    border-radius: 8px;
+  }
+  .card3{
+    background-color: hsl(195, 26%, 69%, .7);
+    border: 1px  hsl(197, 18%, 43%) solid;
+    border-radius: 8px;
+  }
+
+  .listenlearn {
+    background: url(../img/footermbv.png);
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    height: auto;
+    font-size: 12px;
+  }
+  .chrono {
+    padding-left: 0%;
+  }
+  .mbvtour {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+    padding-right: 0;
+  }
+  .tourphoto {
+    width: fit-content;
+  }
+
+  footer {
+    color: white;
+    position: absolute;
+    width: 100%;
+    line-height: 14px;
+    background-color: #D50069;
+    font-size: 12px;
+    padding-top: 1%;
+    padding-left: 1%;
+    margin-bottom: 0;
+  }
+  

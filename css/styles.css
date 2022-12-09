@@ -19,7 +19,14 @@ h2, h3 , h4, h5, h6 {
   a {
     font-family: neue-kabel, sans-serif;
     font-size: 14px;
+    color: white;
   }
+  a:visited {
+    font-family: neue-kabel, sans-serif;
+    font-size: 14px;
+    color: white;
+  }
+
   p {
     font-family: 'Helvetica', sans-serif;
     font-size: 14px;

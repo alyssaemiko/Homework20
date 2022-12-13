@@ -19,7 +19,18 @@ h2, h3 , h4, h5, h6 {
   a {
     font-family: neue-kabel, sans-serif;
     font-size: 14px;
+    color: #ffffff !important;
+      text-decoration:none;
+      font-weight:700;
   }
+  a:hover {
+    font-family: neue-kabel, sans-serif;
+    font-size: 14px;
+    color: #ffffff !important;
+      text-decoration:none;
+      font-weight:700;
+  }
+
   p {
     font-family: 'Helvetica', sans-serif;
     font-size: 14px;
@@ -139,7 +150,8 @@ h2, h3 , h4, h5, h6 {
   }
 
   footer {
-    color: white;
+    color: #ffffff !important;
+    text-decortion: none !important;
     position: absolute;
     width: 100%;
     line-height: 14px;
@@ -150,3 +162,6 @@ h2, h3 , h4, h5, h6 {
     margin-bottom: 0;
   }
   
+footer, a {
+    text-decoration: none;
+}
